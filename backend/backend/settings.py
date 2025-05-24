@@ -121,7 +121,7 @@ else:
         'default': {
             'ENGINE': ENGINE,
             'NAME': NAME,
-            'USER': os.getenv('DB_USER', 'postgre'),
+            'USER': os.getenv('DB_USER', 'postgres'),
             'PASSWORD': os.getenv('DB_PASSWORD', 'Desarrollo123$%'),
             'HOST': os.getenv('DB_HOST', 'localhost'),
             'PORT': os.getenv('DB_PORT', '5432' if DB_ENGINE == 'postgresql' else ('3306' if DB_ENGINE == 'mysql' else '1433')),
