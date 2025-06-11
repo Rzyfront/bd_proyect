@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'MyApps.tour_plans',
     'MyApps.tour_requests',
     'MyApps.service_records',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
